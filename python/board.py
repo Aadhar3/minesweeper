@@ -113,7 +113,7 @@ class Board:
             else:
                 self.game_result = Game.lost
                 # this is commented out to save a bit of time on the solver
-                self.reveal_all_mines()
+                # self.reveal_all_mines()
                 return s
 
         if self.board[row][col].possible_adjacent_mines == 0:
