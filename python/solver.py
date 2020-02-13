@@ -118,7 +118,7 @@ class Solver:
     def solve(self) -> bool:
         """Returns if the solver is successfully able to solve the board"""
 
-        # num_moves = 1 has is significant because the user cannot lose on the first click
+        # num_moves = 1 is significant because the user cannot lose on the first click
         # so if the first click is a mine, the board places the mine somewhere else
         num_moves = 1
         while self.board_object.get_game_result() == Game.in_progress:
