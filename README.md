@@ -14,13 +14,13 @@ You can either play the game on the command line or run a solver which automatic
 
 ## To play:
 
-`python3 play.py  n  num_mines` 
-n represents the size of the board (n x n)
-num_mines represents the number of mines on the board
+`python3 play.py  n  num_mines` <br/>
+n represents the size of the board (n x n) <br/>
+num_mines represents the number of mines on the board <br/>
 
 ## To run the solver:
 
-`python3 run_solver.py n num_mines num_trials`
-n represents the size of the board (n x n)
-num_mines represents the number of mines on the board
-num_trials represents the number of times the solver plays the game
+`python3 run_solver.py n num_mines num_trials` <br/>
+n represents the size of the board (n x n) <br/>
+num_mines represents the number of mines on the board <br/>
+num_trials represents the number of times the solver plays the game <br/>
